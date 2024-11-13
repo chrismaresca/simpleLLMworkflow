@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcript Result</title>
+</head>
+<body>
+    <h1>{{ message }}</h1>
+    <p><strong>Meeting ID:</strong> {{ meeting_id }}</p>
+    
+    <pre>{{ transcripts | safe }}</pre>
+
+    <a href="/">Process another transcript</a>
+</body>
+</html>
